@@ -180,7 +180,4 @@ class sudokuSolver:
 
 if __name__=="__main__":
     su=sudokuSolver()
-    su.sudoku.add_num(0,0,1)
-    su.sudoku.add_num(0,1,2)
-    su.sudoku.add_num(1,1,3)
     su.run()
